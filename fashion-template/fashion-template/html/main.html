@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>LAMINA</title>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li>NEW IN</li>
+            <li>COLLECTION</li>
+            <li>LOOKBOOK</li>
+            <li><img src="../img/LAMINA.png" alt=""></li>
+            <li>OUR STORY</li>
+            <li>NEWS</li>
+            <li>STORES</li>
+        </ul>
+    </nav>
+</header>
+
+<div class="swiper-parent">
+    <!-- Swiper START -->
+    <div class="swiper-container">
+        <!-- メイン表示部分 -->
+        <div class="swiper-wrapper">
+            <!-- 各スライド -->
+            <div class="swiper-slide"><img src="../img/長方形1.png" alt=""></div>
+            <div class="swiper-slide"><img src="../img/長方形1.png" alt=""></div>
+            <div class="swiper-slide"><img src="../img/長方形1.png" alt=""></div>　　　　
+       </div>
+ 
+        <!-- ページネーション -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- Swiper END -->
+    <!-- 前ページボタン -->
+    <div class="swiper-button-prev"></div>
+    <!-- 次ページボタン -->
+    <div class="swiper-button-next"></div>
+    <div id="swipertitle">
+        <img src="../img/Primitive.png" alt="">
+        <div class="top-title">太古の誇りを</div>
+        <div class="sub-title">Discover the Collection</div>
+    </div>
+</div>
+
+
+<main id="main">
+    <div class="outerbox">
+        <div id="inner1">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+        <div id="inner2">
+          <p>2020 SS Collction</p>
+          <h1>Primitive</h1>
+          <h2>太古の誇りを</h2>
+          <div class="">
+              <a href="#">Discover</a>
+          </div>
+        </div>
+
+
+    </div>
+</main>
+
+<!-- Swiper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true,
+        }
+    });
+</script>
+</body>
+</html>

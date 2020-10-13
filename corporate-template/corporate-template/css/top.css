@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*-------共通---------------*/
+
+html {
+    width: 100%;
+    font-size: 65.2%;
+    letter-spacing: 0.01em;
+    font-family: '小塚ゴシック Pr6N','Kozuka Gothic Pro' '源ノ角ゴシック JP';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    vertical-align:  center;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*----------------------*/
+
+
+/*------<heder>--------*/
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+.logo {
+   
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav {
+  margin-left: auto;
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+#button {
+    width: 200px;
+    height: 79px;
+    background-color: #30d0ed;
+    color: #ffffff;
+    font-size: 16px;
+    padding-right: 0;
+}
+
+/*-------</header>-------*/
+
+/*----------*/
+
+#top-wrapper {
+    width: 100%;
+    height: 670px;
+    background-image: url(../img/長方形1.png);
+    background-size: cover;
+}
+
+.box{
+    width: 600px;
+    padding-top: 170px;
+    margin: 0 auto;
+}
+
+/*----</top-wrapper>-------*/
+
+/*----<section-newslist>---*/
+
+#newslist{
+    width: 100vw;
+    height: 240px;
+    padding-top: 40px;
+    display: flex;
+    background-color: #edfcff;
+    justify-content: space-around;
+}
+
+.newstit {
+    width: 20%;
+    height: 100px;
+}
+
+.newstit h1 {
+    font-size: 40px;
+    color: #019bdf;
+    text-align: center;
+}
+
+.newstit h2 {
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.newstit img {
+    margin-left: 5px;
+}
+
+.newslistwrapper {
+    width: 60%;
+    margin-right: 200px;
+}
+
+
+  .msr_newslist01 li {
+    border-bottom: 1px solid #93deff;
+    font-size: 14px;
+  }
+  .msr_newslist01 li a {
+    box-sizing: border-box;
+    color: #000000;
+    display: table;
+    padding: 10px;
+    text-decoration: none;
+
+    width: 100%;
+  }
+
+  .msr_newslist01 li div {
+    display: table-cell;
+    width: 144px;
+  }
+  .msr_newslist01 li p {
+    display: table-cell;
+    padding-left: 20px;
+    vertical-align: middle;
+  }
+  
+  /* 時間の設定 */
+  .msr_newslist01 li time {
+    display: table-cell;
+    vertical-align: top;
+    width: 90px;
+  }
+  
+  /* カテゴリの設定 */
+  .msr_newslist01 li .cat01,
+  .msr_newslist01 li .cat02 {
+    background-color: #019bdf;
+    border-radius: 1px;
+    color: #FFFFFF;
+    font-size: 9px;
+    padding: 0 2px;
+    text-align: center;
+    width: 80px;
+  }
+  .msr_newslist01 li .cat02 {
+    background-color: #019bdf;
+  }
+
+/*----</section-newslist>---*/
+
+
+
+
+#sectointit {
+    margin: 0 auto;
+ }
+.sectiontit h1{
+    font-size: 40px;
+    color: #019bdf;
+    text-align: center;
+}
+
+.sectiontit h2 {
+    font-size: 14px;
+    color: #019bdf;
+    text-align: center;
+}

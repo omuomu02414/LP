@@ -1,0 +1,18 @@
+[1008/103109.080:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1008/115400.356:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1008/115551.308:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1008/123744.268:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1008/165740.020:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[1008/202402.207:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1009/153448.651:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1009/171233.196:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1009/232926.921:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[1013/002234.378:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1013/002335.600:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[1013/002359.179:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
