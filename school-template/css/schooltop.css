@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/*--------------------------------------*/
+html {
+    width: 100%;
+    font-size: 65.2%; /*=>10px*/
+    font-family: "fot-seurat-pron, sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    background-color: #f4f121;
+}
+
+li {
+    font-size: 1.8rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.graycircle {
+    width: 30px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+/*---------------------------------------*/
+
+body {
+    width: 97%;
+    height: auto;
+    margin: 2.1rem auto;
+    background-color: #fff9e0;
+    border-radius: 2%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6.8rem;
+}
+
+nav li {
+    margin-left: 4rem;
+    padding-right: 4rem;
+}
+
+nav img {
+    width: 30px;
+    margin-right: 15px;
+    vertical-align:middle;
+
+}
+
+.kindergartenname a {
+    font-size: 4.5rem;
+    line-height: 1.13;
+    color: #46c419;
+}
+
+.headerlist {
+    border-right: 3px dotted #ccbe95;
+}
+
+.headerlist:first-child {
+    padding-left: 4rem;
+    border-left: 3px dotted #ccbe95;
+}
+
+
+.headerlistno3 {
+    border-left: 3px dotted #ccbe95;
+    margin:0;
+    padding-left: 4rem;
+}
+#mainvisual {
+    margin: 50px auto;
+    background-image: url(../images/greenellipse.png);
+    background-size: 80%;
+    background-position: center;
+}
+
+#mainvisual p {
+    font-size: 3.2rem;
+    color: #fe7988;
+    text-align: center;
+}
+
+.ellipseimg {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ellipseimg img {
+    width: 795px;
+    height: 490px;
+    margin-bottom: 120px;
+}
+.contaier {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.backgroud {
+    background-image: url(../images/yerrowsquea.png);
+    background-size: 100% 100% ;
+}
+.backgroud a {
+    color: #4a4a4a;
+} 
+
+.backgroud li {
+    color: #4a4a4a;
+    writing-mode: vertical-rl;
+    margin-bottom: 30px;
+}
+
+.backgroud li:first-child{
+    border-bottom: 3px dotted #72726a;
+    padding-bottom: 30px;
+}
+
+.backgroud li:last-child{
+    border-top: 3px dotted #72726a;
+    padding-top: 30px;
+}
+
+.feature {
+    font-size: 2.8rem;
+    color: #46c419;
+    text-align: center;
+}
+
+.photoboxpearent {
+    display: flex;
+    justify-content: center;
+}
+
+.childbox {
+    width: 370px;
+    height: 200px;
+    border-radius: 5.5%;
+    background-color: #e7e7e7;
+    margin-left: 45px;
+    
+}

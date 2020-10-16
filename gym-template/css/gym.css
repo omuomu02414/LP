@@ -1,28 +1,194 @@
-body {
-    margin: 0;
-    background-color: #f6f7f9;
-}
-.mainvisual {
-    
+@charset "UTF-8";
+html {
     width: 100%;
-    height: 800px;
+    font-size: 65.2%; /*=>10px*/
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*-------------------------------*/
+
+
+.contacts {
+     margin: 0 30px;
+     padding-top: 30px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.contactaddress a{
+    font-size: 3rem;
+    color: #f74d95;
+}
+
+.receptiontime {
+    text-align: right;
+    font-size: 1.6rem;
+}
+
+header {
+    background-image: url(../img/headerbg.png);
+    background-size: cover;
+    
 }
 
 main {
-    background-image: url(../img/bg.png);
-    width: 100%;
-    height: 400px;
+    height: 600px;
+    background-image: url(../img/mainbg.png);
+    background-size: cover;
+    position: relative;
+    bottom: 400px;
+
 }
 
-.mainvisual {
+.mainvisualwrapper {
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-#contact a{
-    font-family: '小塚ゴシック Pr6N';
-    font-size: 30px;
-    font-weight: bold;
-    color: #f74d95;
-    text-decoration: none;
+
+.textouter::before {
+    content: url(../img/Exceed\ Your\ Potencial.png);
 }
+.textouter {
+    width: 800px;
+    height: 300px;
+    vertical-align: center;
+    z-index: 100;
+}
+
+.text1 {
+    font-size: 4.2rem;
+}
+
+.text2 {
+    font-size: 10.5rem;
+    
+}
+
+.text3 {
+    font-size: 2.3rem;
+}
+
+.text4 {
+    font-size: 3.3rem;
+}
+
+.pink {
+    color: #f74d95;
+ }
+
+ .bottunwrapper {
+    display: flex;
+}
+
+.applicationbtninner {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.applicationbtninner-text {
+    font-size: 2.5rem;
+    color: #ffffff;
+    position: relative;
+    left: 50px;
+    bottom: 55px;
+}
+
+.roundbtn {
+    position: relative;
+    top: 400px;
+    right: 250px;
+
+}
+
+.Satisfaction {
+    font-size: 2.4rem;
+    color: #ffffff;
+    position: relative;
+    bottom: 150px;
+    left: 48px;
+}
+
+.numbers {
+    position: relative;
+    bottom: 150px;
+    left: 30px;
+}
+
+.percentage {
+    position: relative;
+    bottom: 150px;
+    left: 10px;
+}
+
+.decoretionimg::before {
+    content: url(../img/WhyEYP.png);
+    position: relative;
+    left: 45%;
+    bottom: 30px;
+}
+
+.decoretionimg h1 {
+    font-size: 4.37rem;
+    color: #5d5d5d;
+    text-align: center;
+}
+
+.subtext {
+    font-size: 2.4rem;
+    color: #f74d95;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    transform:rotate(20deg);
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.item {
+    margin-left: 50px;
+}
+
+.textwrapper{
+
+    position: relative;
+    right: 5px;
+    bottom: 180px;
+}
+
+.textwrapper p{
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+span {
+    color: #ffffff;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.textwrapper p:last-child {
+    display: inline-block;
+    padding-left: 40px;
+
+}
+
+
+
+
