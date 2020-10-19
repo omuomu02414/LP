@@ -11,3 +11,19 @@ C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use
 C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 
+[1016/094702.769:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[1016/100559.043:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1016/100601.211:WARNING:dhcp_pac_file_fetcher_win.cc(588)] Unexpected error retrieving WPAD configuration from DHCP.
+[1016/100604.066:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1016/100609.073:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1016/100610.243:WARNING:dhcp_pac_file_fetcher_win.cc(588)] Unexpected error retrieving WPAD configuration from DHCP.
+[1016/100614.081:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1017/180626.089:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1017/181156.567:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[1017/181747.148:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(77,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(99,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+

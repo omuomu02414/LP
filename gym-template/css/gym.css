@@ -2,6 +2,7 @@
 html {
     width: 100%;
     font-size: 65.2%; /*=>10px*/
+    font-family: '小塚ゴシック Pr6N';
     
 }
 
@@ -12,16 +13,33 @@ a {
 
 /*-------------------------------*/
 
-
-.contacts {
-     margin: 0 30px;
-     padding-top: 30px;
-     display: flex;
-     justify-content: space-between;
+header {
+    background-color: #f6f7f9;
+    height: 800px;
+    padding: 20px 25px;
 }
 
+.contacts {
+    width: 1530px;
+    min-width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+main {
+    height: 400px;
+}
+.cover-img {
+    background-image: url(../img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
 .contactaddress a{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #f74d95;
 }
 
@@ -30,30 +48,24 @@ a {
     font-size: 1.6rem;
 }
 
-header {
-    background-image: url(../img/headerbg.png);
-    background-size: cover;
-    
-}
 
-main {
-    height: 600px;
-    background-image: url(../img/mainbg.png);
-    background-size: cover;
-    position: relative;
-    bottom: 400px;
 
-}
 
 .mainvisualwrapper {
-    
+    width: auto;
     display: flex;
     justify-content: center;
+    margin: 0 105px 0 230px;
+
 }
+
 
 
 .textouter::before {
     content: url(../img/Exceed\ Your\ Potencial.png);
+    position: relative;
+    top: 80px;
+    right: 150px;
 }
 .textouter {
     width: 800px;
@@ -62,8 +74,16 @@ main {
     z-index: 100;
 }
 
+/*最短最速～申し込みボタンまで*/
+
 .text1 {
-    font-size: 4.2rem;
+    font-family: '小塚ゴシック Pr6N';
+    font-size: 3.75rem;
+    color:#f74d95;
+}
+
+#EYP {
+    margin-bottom: 25px;
 }
 
 .text2 {
@@ -75,13 +95,12 @@ main {
     font-size: 2.3rem;
 }
 
-.text4 {
-    font-size: 3.3rem;
-}
-
-.pink {
+#lasttext {
+    font-size: 2.75rem;
     color: #f74d95;
- }
+    font-weight: bold;
+    margin: 30px 0 25px 20px;
+}
 
  .bottunwrapper {
     display: flex;
@@ -102,9 +121,10 @@ main {
 }
 
 .roundbtn {
+    height: 169px;
     position: relative;
     top: 400px;
-    right: 250px;
+    right: 280px;
 
 }
 
@@ -128,6 +148,13 @@ main {
     left: 10px;
 }
 
+.modelimage {
+    position: relative;
+    right: 200px;
+ 
+}
+
+
 .decoretionimg::before {
     content: url(../img/WhyEYP.png);
     position: relative;
@@ -146,9 +173,9 @@ main {
     color: #f74d95;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    transform:rotate(20deg);
+    transform:rotate(10deg);
     position: relative;
-    bottom: 500px;
+    bottom: 800px;
     left: 400px;
 }
 .btn {
@@ -189,6 +216,25 @@ span {
 
 }
 
+@media screen and (min-width: 1280px){
+    .contacts {
+        width: 757px;
+    }
 
+    /*最短最速～申し込みボタンまで*/
+
+
+    .subtext {
+        font-size: 2em;
+        color: #f74d95;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+        transform:rotate(10deg);
+        position: relative;
+        bottom: 800px;
+        left: 390px;
+    }
+
+}
 
 
