@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+    font-family: 'Meiryo';
+    line-height: 1.7;
+    text-align: center;
+    color: #333333;
+}
+
+img {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+
+/*--------------------*/
+
+/*ヘッダー*/
+.headerouter {
+    height: 75px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.rogo {
+    width: 130px;
+    height: 45px;
+}
+
+.txt1 p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.headerinner {
+    display: flex;
+    height: 75px;
+}
+
+.contact {
+    width: 318px;
+    height: 43px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    background-color: #DA6B64;
+    text-align: center;
+}
+
+.contact a{
+    font-size: 1.4rem;
+    color: #ffffff;
+
+}
+/*ヘッダー終*/
+
+#mainvisualwrapper {
+    width: 100%;
+    padding: 100px 0 94px 0;
+    background-image: url(../images/main.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+#mainvisualwrapper p {
+    font-weight: 600;
+}
+
+.mainvisualtext1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+.mainvisualtext2 {
+    font-size: 1.6rem;
+}
+
+#isaramainrogo {
+    width: 315px;
+    height: 105px;
+    margin: 30px auto;
+}
+/*メインビジュアル終*/
+
+.Inquiryformbox {
+    height: 600px;
+    background-color: #EBB94D;
+    padding-top: 30px;
+}
+
+.texttop {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.annotation {
+    font-family: 'courier-std', 'monospace';
+    width: 540px;
+    margin: 10px auto 15px auto;
+    font-size: 1.8rem;
+    color: #D1254E;
+    background-color: #F9F2F4;
+    border-radius: 5px;
+}
+
+.textunder {
+    font-size: 2.1rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.documentrequest {
+    text-align: center;
+}
+
+.documentrequest a {
+    font-size: 2.8rem;
+    color: #ffffff;
+    background-color: #D84940;
+    display: inline-flex;
+    align-items: center;
+    padding: 25px 230px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+.snsbtnwrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.twitter {
+    background-color: #1B95E0;
+}
+
+.goodbtn {
+    background-color: #4080FF;
+}
+
+.share {
+    background-color: #1877F2;
+}
+
+.snsbox:last-child {
+    margin-left: 5px;
+}
+
+/*エンジニアとして本当の自由を手に入れるためには？*/
+.priorexplanation {
+    background-image: url(../images/introbottom.jpg);
+    background-size: cover;
+    background-position: center;/*表示位置要調整*/
+    height: 585px;
+    padding-top: 80px;
+}
+
+.toptitele {
+    font-size: 2.4rem;
+}
+
+.textwrap1 {
+    margin: 0px 0 30px 0;
+}
+
+.textwrap2 {
+    margin-bottom: 30px;
+}
+
+.textwrap3 {
+    margin-bottom: 300px;
+}
+
+
+.discription1 {
+    height: 633px;
+    background-color: #FEF5E0;
+}
+.abouticon {
+    width: 77px;
+    height: 77px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    color: #ffffff;
+    background-color: #EBB94D;
+    position: relative;
+    bottom: 30px;
+    
+}
+
+
+.imagebox{
+    width: 1170px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 30px 90px 40px 90px;
+    background-color: #ffffff;
+    border: solid 2px #EBB94D;
+    border-radius: 10px;
+    
+}
+
+.imageboxiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.innertext {
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+}
+
+.box p {
+    font-size: 1.2rem;
+}
+
+.discription2 {
+    height: 454px;
+    background-image: url(../images/aboutsecondbg.jpg);
+    background-size: cover;
+}
+
+.discriptiontitel {
+    color: #ffffff;
+}
