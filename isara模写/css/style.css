@@ -29,6 +29,9 @@ h2 {
     font-size: 2.4rem;
 }
 
+li {
+    list-style: none;
+}
 
 /*--------------------*/
 
@@ -238,10 +241,391 @@ h2 {
 
 .discription2 {
     height: 454px;
+    padding-top: 65px;
     background-image: url(../images/aboutsecondbg.jpg);
     background-size: cover;
 }
 
-.discriptiontitel {
+
+.discription2 h2 {
     color: #ffffff;
+    font-size: 2.8rem;
 }
+
+.discriptiontitel {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.discriptiontitel-01 {
+    color: #EBB94D;
+
+}
+.detaildescriptioninner {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: #ffffff;
+    width: 374px;
+    border-radius: 5px;
+    margin-left: 17px;
+}
+
+.steptit {
+    width: 313px;
+    margin: 32px auto 32px auto;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #EBB94D;
+    
+}
+
+.steptext {
+    margin-bottom: 30px;
+}
+
+.aboutlast {
+   background-color: #016EA9;
+   height: 145px;
+
+}
+
+
+/*学べること*/
+.learnicon {
+    display: flex;
+    justify-content: center;
+}
+
+.side {
+    width: 180px;
+    height: 180px;
+    margin-left: 45px;
+}
+
+/*学べること*/
+
+.merit {
+    background-color: #FEF5E0;
+}
+
+
+.photographbox {
+    display: flex;
+    
+}
+
+.sport {
+    width: 1170px;
+    height: 265px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: solid 3px #EBB94D;
+    border-radius: 5px;
+}
+
+
+/*講師紹介*/
+.initiation {
+    background-image: url(../images/teacherbg.jpg);
+    background-size: cover;
+    height: 1377px;
+}
+
+.presentation {
+    display: flex;
+}
+
+.presentation2 {
+    display: flex;
+}
+
+.question {
+    background-color: #EBB94D;
+}
+
+
+.representatives {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.representativespic {
+    width: 240px;
+    height: 240px;
+    border: solid 2px #EBB94D;
+}
+
+.representativesmessage {
+    width: 500px;
+}
+
+.listwrap {
+    display: flex;
+    justify-content: center;
+}
+
+.listwrap li {
+    font-size: 1.6rem;
+    color: #000000;
+    font-weight: 600;
+    margin: 20px 0;
+    border-bottom: solid 1px #E5E5E5;
+}
+
+.priorlearninglist {
+    width: 374px;
+    height: 532px;
+    border: solid 2px #016EA9;
+    border-radius: 5px;
+}
+
+
+.in_overseas_travellist {
+    width: 374px;
+    height: 350px;
+    margin-left: 30px;
+    border: solid 2px #016EA9;
+    border-radius: 5px;
+}
+
+.list-tit {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 0;
+    background-color:  #016EA9;
+}
+
+
+.attending_flow {
+    width: 1170px;
+    height: 1825px;
+    margin: 0 auto;
+}
+
+.flowimage {
+    height: 225px;
+    margin: 0 auto;
+    background-color: #FEF5E0;
+    border-radius: 10px;
+}
+
+.flowpic {
+    display: flex;
+}
+
+/*なんでバンコク*/
+.why {
+    height: 490px;
+    background-image: url(../images/bangkokbg.jpg);
+    background-size: cover;
+}
+
+/*参加特典*/
+
+.entry_privilege{
+    background-color: #F7C23C;
+}
+
+.objective {
+    height: 525px;
+    background-image: url(../images/specialdetail.jpg);
+    background-size: cover;
+}
+
+.messageboxouter{
+    display: flex;
+}
+
+.documentrequestform {
+    background-color: #EBB94D;
+}
+
+.Form-Item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 1140px;
+  display: flex;
+  align-items: center;
+}
+
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 1140px;
+  background: #ffffff;
+  font-size: 18px;
+}
+
+.Form-Item-Textarea {
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+.Form-Btn {
+  border-radius: 50px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 1140px;
+  display: block;
+  background-color: #DA6B64;
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+
+/*====================================================================
+.s_01 .accordion_one
+====================================================================*/
+.s_01 .accordion_one {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.s_01 .accordion_one .accordion_header {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 11%;
+    text-align: left;
+    position: relative;
+    z-index: +1;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.accordion_header {
+    border: solid 1px #E5E5E5;
+}
+
+.s_01 .accordion_one .accordion_header:hover {
+    opacity: .8;
+}
+.s_01 .accordion_one .accordion_header .i_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    margin-top: -20px;
+    box-sizing: border-box;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transform-origin: center center;
+    transition-duration: 0.2s;
+}
+.s_01 .accordion_one .accordion_header .i_box .one_i {
+    display: block;
+    width: 18px;
+    height: 18px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transform-origin: center center;
+    transition-duration: 0.2s;
+    position: relative;
+}
+.s_01 .accordion_one .accordion_header.open .i_box {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+.s_01 .accordion_one .accordion_header .i_box .one_i:before, .s_01 .accordion_one .accordion_header .i_box .one_i:after {
+    display: flex;
+    content: '';
+    background-color: #fff;
+    border-radius: 10px;
+    width: 18px;
+    height: 4px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-origin: center center;
+}
+.s_01 .accordion_one .accordion_header .i_box .one_i:before {
+    width: 4px;
+    height: 18px;
+    top: 0;
+    left: 7px;
+}
+.s_01 .accordion_one .accordion_header.open .i_box .one_i:before {
+    content: none;
+}
+.s_01 .accordion_one .accordion_header.open .i_box .one_i:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.s_01 .accordion_one .accordion_inner {
+    display: none;
+    padding: 30px 30px;
+    border-left: 2px solid #db0f2f;
+    border-right: 2px solid #db0f2f;
+    border-bottom: 2px solid #db0f2f;
+    box-sizing: border-box;
+}
+.s_01 .accordion_one:nth-of-type(2) .accordion_inner {
+    border-left: 2px solid #ff9a05;
+    border-right: 2px solid #ff9a05;
+    border-bottom: 2px solid #ff9a05;
+}
+.s_01 .accordion_one:nth-of-type(3) .accordion_inner {
+    border-left: 2px solid #1c85d8;
+    border-right: 2px solid #1c85d8;
+    border-bottom: 2px solid #1c85d8;
+}
+.s_01 .accordion_one .accordion_inner .box_one {
+    height: 300px;
+}
+.s_01 .accordion_one .accordion_inner p.txt_a_ac {
+    margin: 0;
+}
+
