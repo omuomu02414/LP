@@ -3,6 +3,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Meiryo';
+    font-weight: 600;
     line-height: 1.7;
     text-align: center;
     color: #333333;
@@ -37,11 +38,12 @@ li {
 
 /*ヘッダー*/
 .headerouter {
+    width: 1075px;
     height: 75px;
+    margin: 0 auto;
     padding-top: 15px;
     display: flex;
     justify-content: space-around;
-
 }
 
 .rogo {
@@ -50,29 +52,31 @@ li {
 }
 
 .txt1 p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
     padding-top: 20px;
 }
 
 .headerinner {
+    /*width: 1075px;*/
+    /*height: 75px;*/
     display: flex;
-    height: 75px;
+    
 }
 
-.contact {
+.contact a{
     width: 318px;
     height: 43px;
     padding: 10px 20px 10px 20px;
     border-radius: 25px;
-    background-color: #DA6B64;
     text-align: center;
-}
-
-.contact a{
     font-size: 1.4rem;
     color: #ffffff;
+    background-color: #DA6B64;
+}
 
+.contact a:hover {
+    background-color: #D84940;
 }
 /*ヘッダー終*/
 
@@ -80,7 +84,7 @@ li {
     width: 100%;
     padding: 100px 0 94px 0;
     background-image: url(../images/main.jpg);
-    background-position-x: center;
+    background-position: center;
     background-size: cover;
 }
 
@@ -89,17 +93,20 @@ li {
 }
 
 .mainvisualtext1 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .mainvisualtext2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    line-height: 22px;
+    
 }
 
 #isaramainrogo {
-    width: 315px;
-    height: 105px;
+    width: 330px;
+    height: 110px;
     margin: 30px auto;
 }
 /*メインビジュアル終*/
@@ -108,6 +115,7 @@ li {
     height: 600px;
     background-color: #EBB94D;
     padding-top: 30px;
+    
 }
 
 .texttop {
@@ -117,7 +125,7 @@ li {
 }
 
 .annotation {
-    font-family: 'courier-std', 'monospace';
+    font-family: 'font-family: Menlo,Monaco,Consolas,"Courier New",monospace;';
     width: 540px;
     margin: 10px auto 15px auto;
     font-size: 1.8rem;
@@ -130,23 +138,36 @@ li {
     font-size: 2.1rem;
     color: #ffffff;
     font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.textunder:last-child {
     margin-bottom: 10px;
 }
 
 .documentrequest {
-    text-align: center;
+    width: 1027px;
+    height: 104px;
+    margin: 50px auto 50px auto;
+    background-color: #DA6B64;
+    border-radius: 50px;
+}
+
+.documentrequest:hover {
+    background-color: #D84940;
 }
 
 .documentrequest a {
     font-size: 2.8rem;
+    font-weight: 600;
     color: #ffffff;
-    background-color: #D84940;
+    opacity: 1;
     display: inline-flex;
     align-items: center;
     padding: 25px 230px;
     margin-bottom: 30px;
-    border-radius: 50px;
 }
+
 
 .snsbtnwrapper {
     display: flex;
@@ -184,6 +205,11 @@ li {
 
 .textwrap1 {
     margin: 0px 0 30px 0;
+}
+
+.textwrap1 p {
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .textwrap2 {
@@ -439,9 +465,28 @@ li {
     background-size: cover;
 }
 
-.messageboxouter{
+/*創業者からのメッセージ*/
+.messageboxouter {
     display: flex;
+    justify-content: center;
 }
+
+.messageboximage {
+   width: 190px;
+   height: 140px;
+}
+
+.messagetext {
+   width: 640px;
+   height: 330px;
+   margin-left: 30px;
+}
+
+.messagetext p {
+   text-align: left;
+}
+
+/*終わり*/
 
 .documentrequestform {
     background-color: #EBB94D;
@@ -524,7 +569,7 @@ li {
 .s_01 .accordion_one
 ====================================================================*/
 .s_01 .accordion_one {
-    max-width: 1024px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 .s_01 .accordion_one .accordion_header {
@@ -537,11 +582,36 @@ li {
     z-index: +1;
     cursor: pointer;
     transition-duration: 0.2s;
+    margin-bottom: 5px;
 }
 
 .accordion_header {
     border: solid 1px #E5E5E5;
 }
+
+/*アコーディオン矢印*/
+
+.accordion_header:after {
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 38%;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-top: solid 5px #E5E5E5;
+    border-right: solid 5px #E5E5E5;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+
+  .accordion_header.open:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 45%;
+  }  
+/*終わり*/
 
 .s_01 .accordion_one .accordion_header:hover {
     opacity: .8;
@@ -606,26 +676,45 @@ li {
 }
 .s_01 .accordion_one .accordion_inner {
     display: none;
+    margin-bottom: 5px;
     padding: 30px 30px;
-    border-left: 2px solid #db0f2f;
-    border-right: 2px solid #db0f2f;
-    border-bottom: 2px solid #db0f2f;
+    border-bottom: 2px solid #F3F3F3;
     box-sizing: border-box;
 }
 .s_01 .accordion_one:nth-of-type(2) .accordion_inner {
-    border-left: 2px solid #ff9a05;
-    border-right: 2px solid #ff9a05;
-    border-bottom: 2px solid #ff9a05;
+
+    border-bottom: 2px solid #F3F3F3;
 }
 .s_01 .accordion_one:nth-of-type(3) .accordion_inner {
-    border-left: 2px solid #1c85d8;
-    border-right: 2px solid #1c85d8;
-    border-bottom: 2px solid #1c85d8;
+
+    border-bottom: 2px solid #F3F3F3;
 }
 .s_01 .accordion_one .accordion_inner .box_one {
-    height: 300px;
+    height: 80px;
 }
 .s_01 .accordion_one .accordion_inner p.txt_a_ac {
     margin: 0;
 }
 
+.txt_a_ac {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+/*フッター*/
+footer {
+    height: 180px;
+    padding: 40px 0 25px 0;
+    margin-top: 50px;
+    background-color: #ECECEC;
+}
+
+.footertitle {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.footerunder {
+    margin-top: 50px;
+}
