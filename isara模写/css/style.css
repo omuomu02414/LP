@@ -27,7 +27,7 @@ p {
 }
 
 h2 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
 }
 
 li {
@@ -199,17 +199,41 @@ li {
     padding-top: 80px;
 }
 
+.priorexplanation p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
 .toptitele {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
+    padding: 30px;
+	position: relative;
+}
+
+.toptitele::before, .toptitele::after {
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+/*かぎかっこ*/
+.toptitele::before {
+	border-left: solid 4px #EBB94D;
+	border-top: solid 4px #EBB94D;
+	top: 0;
+	/*left: 0;*/
+}
+
+.toptitele::after {
+	border-right: solid 4px #EBB94D;
+	border-bottom: solid 4px #EBB94D;
+	bottom: 0;
+	/*right: 0;*/
 }
 
 .textwrap1 {
     margin: 0px 0 30px 0;
-}
-
-.textwrap1 p {
-    font-size: 2rem;
-    font-weight: 300;
 }
 
 .textwrap2 {
@@ -220,6 +244,11 @@ li {
     margin-bottom: 300px;
 }
 
+.textwrap3 span{
+    font-weight: 700;
+    border-bottom: solid 4px  #EBB94D;
+
+}
 
 .discription1 {
     height: 633px;
@@ -261,10 +290,6 @@ li {
     font-size: 1.6rem;
 }
 
-.box p {
-    font-size: 1.2rem;
-}
-
 .discription2 {
     height: 454px;
     padding-top: 65px;
@@ -275,7 +300,7 @@ li {
 
 .discription2 h2 {
     color: #ffffff;
-    font-size: 2.8rem;
+    
 }
 
 .discriptiontitel {
@@ -307,9 +332,17 @@ li {
     border-radius: 5px;
     color: #ffffff;
     background-color: #EBB94D;
-    
 }
 
+.step1 {
+    font-size: 1.4rem;
+    padding-bottom: 15px;
+}
+
+.step2 {
+    font-size: 1.6rem;
+    
+}
 .steptext {
     margin-bottom: 30px;
 }
@@ -317,11 +350,41 @@ li {
 .aboutlast {
    background-color: #016EA9;
    height: 145px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
 
+}
+
+.aboutlast p {
+    font-size: 2rem;
+    color: #ffffff;
+    line-height: 32px;
+}
+
+.aboutlast span {
+    color: #EBB94D;
 }
 
 
 /*学べること*/
+
+.lerantoisara {
+    height: 510px;
+    padding-top: 65px;
+}
+
+
+.lerantoisara small {
+    font-size: 1.6rem;
+}
+
+.lerantoisaratext {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
 .learnicon {
     display: flex;
     justify-content: center;
@@ -333,29 +396,116 @@ li {
     margin-left: 45px;
 }
 
-/*学べること*/
+/*学べること～メリット*/
 
 .merit {
+    height: 1020px;
+    padding-top: 40px;
     background-color: #FEF5E0;
 }
 
 
-.photographbox {
-    display: flex;
-    
+.merittitle {
+    font-size: 2.8rem;
+    padding: 30px;
+	position: relative;
 }
 
+.merittitle::before, .toptitele::after {
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+/*かぎかっこ*/
+.merittitle::before {
+	border-left: solid 4px #EBB94D;
+	border-top: solid 4px #EBB94D;
+	top: 0;
+	/*left: 0;*/
+}
+
+.merittitle::after {
+	border-right: solid 4px #EBB94D;
+	border-bottom: solid 4px #EBB94D;
+	bottom: 0;
+	/*right: 0;*/
+}
+
+
+
+.photographbox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.boxouter {
+    margin-right: 30px;
+}
+
+.photo img{
+    width: 360px;
+    height: 180px;
+}
+
+.learndetail {
+    width: 350px;
+}
+
+h4 {
+    font-size: 2rem;
+    color: #ebb94d;
+    font-weight: 700;
+    text-align: left;
+}
+
+.txts {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+/*枠内*/
+
+.more {
+    color: #ebb94d;
+}
+
+strong {
+    font-size: 2rem;
+    font-weight: 600;
+}
 .sport {
     width: 1170px;
     height: 265px;
     margin: 0 auto;
+    padding-top: 45px;
     background-color: #ffffff;
     border: solid 3px #EBB94D;
     border-radius: 5px;
 }
 
+.innertext p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 26px;
+}
 
-/*講師紹介*/
+.meritlast {
+    margin-top: 45px;
+}
+
+.meritlast p {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+/*ここまで*/
+
+/*講師紹介 のちほど*/
+
 .initiation {
     background-image: url(../images/teacherbg.jpg);
     background-size: cover;
@@ -364,6 +514,26 @@ li {
 
 .presentation {
     display: flex;
+    justify-content: center;
+}
+
+.instructor {
+    margin-right: 30px;
+}
+
+.instructorinner {
+    width: 377px;
+    height: 393px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #ffffff;
+    border: solid 3px #ffffff;
+
+}
+.massege {
+    width: 290px;
+    margin: 0 auto;
+    
 }
 
 .presentation2 {
@@ -469,6 +639,7 @@ li {
 .messageboxouter {
     display: flex;
     justify-content: center;
+    
 }
 
 .messageboximage {
