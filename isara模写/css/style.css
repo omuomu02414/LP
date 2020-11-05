@@ -37,6 +37,17 @@ li {
 /*--------------------*/
 
 /*ヘッダー*/
+
+header {
+    height: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
 .headerouter {
     width: 1500px;
     height: 75px;
@@ -87,8 +98,10 @@ li {
 /*ヘッダー終*/
 
 #mainvisualwrapper {
+    height: 500px;
     width: 100%;
     padding: 100px 0 94px 0;
+    margin-top: 75px;
     background-image: url(../images/main.jpg);
     background-position: center;
     background-size: cover;
@@ -181,6 +194,7 @@ li {
 }
 
 .snsbtnwrapper a {
+    color: #ffffff;
     text-align: center;
 }
 
@@ -188,6 +202,10 @@ li {
     background-color: #1B95E0;
     padding: 0 20px;
     border-radius: 3px;
+}
+
+.twitter:hover {
+    background-color:#4267b2;
 }
 
 .goodbtn {
@@ -637,7 +655,7 @@ strong {
     font-weight: 300;
 }
 
-/**/
+/*挨拶*/
 
 .representatives {
     margin: 40px 0;
@@ -658,6 +676,24 @@ strong {
     color: #777777;
 }
 
+.learnable_detail {
+    height: 800px;
+    background-image: url(../images/classbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*学べる内容リスト*/
+
+.learnable_detailtile {
+    color: #ffffff;
+}
+
+.learnable_detail p {
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
 .listwrap {
     display: flex;
     justify-content: center;
@@ -671,18 +707,23 @@ strong {
     border-bottom: solid 1px #E5E5E5;
 }
 
+.listwrap li:last-child {
+    border-bottom: none;
+}
+
 .priorlearninglist {
     width: 374px;
     height: 532px;
+    background-color: #ffffff;
     border: solid 2px #016EA9;
     border-radius: 5px;
 }
-
 
 .in_overseas_travellist {
     width: 374px;
     height: 350px;
     margin-left: 30px;
+    background-color: #ffffff;
     border: solid 2px #016EA9;
     border-radius: 5px;
 }
@@ -695,7 +736,15 @@ strong {
     background-color:  #016EA9;
 }
 
+.extendedsupport {
+    height: 140px;
+    background-color: #016EA9;
+}
 
+.extendedsupport p {
+    font-size: 2rem;
+    color: #ffffff;
+}
 .attending_flow {
     width: 1170px;
     height: 1825px;
@@ -1156,4 +1205,42 @@ footer {
 
 .footerunder {
     margin-top: 50px;
+}
+
+.page-top
+{
+	margin: 0 ;
+	padding: 0 ;
+}
+ 
+.page-top p
+{
+	margin: 0 ;
+	padding: 0 ;
+
+	position: fixed ;
+	right: 16px ;
+	bottom: 16px ;
+}
+ 
+.move-page-top
+{
+	display: block ;
+	background: #ECECEC ;
+	width: 50px ;
+	height: 50px ;
+
+	color: #fff ;
+	line-height: 50px ;
+	text-decoration: none ;
+	text-align: center ;
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
 }
