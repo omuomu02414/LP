@@ -420,14 +420,14 @@ li {
     background-color: #FEF5E0;
 }
 
-
+/*途中*/
 .merittitle {
     font-size: 2.8rem;
     padding: 30px;
 	position: relative;
 }
 
-.merittitle::before, .toptitele::after {
+.merittitle::before, .merittitle::after {
 	content: '';
 	width: 30px;
 	height: 30px;
@@ -437,18 +437,17 @@ li {
 /*かぎかっこ*/
 .merittitle::before {
 	border-left: solid 4px #EBB94D;
-	border-top: solid 4px #EBB94D;
+	border-top: solid 4px  #EBB94D;
 	top: 0;
 	/*left: 0;*/
 }
 
 .merittitle::after {
-	border-right: solid 4px #EBB94D;
-	border-bottom: solid 4px #EBB94D;
+	border-right: solid 4px  #EBB94D;
+	border-bottom: solid 4px  #EBB94D;
 	bottom: 0;
 	/*right: 0;*/
 }
-
 
 
 .photographbox {
@@ -543,9 +542,8 @@ strong {
     border-radius: 50%;
 }
 .instructorinner {
-    width: 377px;
+    width: 240px;
     height: 393px;
-    おあ
     font-size: 1.6rem;
     font-weight: 300;
     color: #ffffff;
@@ -553,7 +551,7 @@ strong {
 
 }
 .massege {
-    width: 290px;
+    width: 150px;
     margin: 0 auto;
     
 }
@@ -598,7 +596,6 @@ strong {
 .questiontitle{
     color: #ffffff;
     position: relative;
-
 }
 
 .questiontitle::before, .questiontitle::after {
@@ -1150,7 +1147,7 @@ footer {
 
 .link {
     color: #23527c;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 .link:hover {
