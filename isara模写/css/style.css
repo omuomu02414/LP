@@ -4,7 +4,7 @@ html {
     font-size: 62.5%;
     font-family: 'Meiryo';
     font-weight: 600;
-    line-height: 1.7;
+    line-height: 1.6;
     text-align: center;
     color: #333333;
 }
@@ -38,10 +38,10 @@ li {
 
 /*ヘッダー*/
 .headerouter {
-    width: 1075px;
+    width: 1500px;
     height: 75px;
     margin: 0 auto;
-    padding-top: 15px;
+    padding: 15px 70px 0 70px;
     display: flex;
     justify-content: space-around;
 }
@@ -61,16 +61,22 @@ li {
     /*width: 1075px;*/
     /*height: 75px;*/
     display: flex;
+    margin-right: 450px;
     
 }
 
-.contact a{
+.contact {
+    padding-top: 5px;
     width: 318px;
     height: 43px;
-    padding: 10px 20px 10px 20px;
+}
+.contact a{
+    padding: 10px 40px 10px 40px;
     border-radius: 25px;
     text-align: center;
     font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    font-weight: 300;
     color: #ffffff;
     background-color: #DA6B64;
 }
@@ -107,7 +113,7 @@ li {
 #isaramainrogo {
     width: 330px;
     height: 110px;
-    margin: 30px auto;
+    margin: 0 auto 30px auto;
 }
 /*メインビジュアル終*/
 
@@ -174,16 +180,26 @@ li {
     justify-content: center;
 }
 
+.snsbtnwrapper a {
+    text-align: center;
+}
+
 .twitter {
     background-color: #1B95E0;
+    padding: 0 20px;
+    border-radius: 3px;
 }
 
 .goodbtn {
     background-color: #4080FF;
+    padding: 0 20px;
+    border-radius: 3px;
 }
 
 .share {
     background-color: #1877F2;
+    padding: 0 10px;
+    border-radius: 3px;
 }
 
 .snsbox:last-child {
@@ -509,7 +525,9 @@ strong {
 .initiation {
     background-image: url(../images/teacherbg.jpg);
     background-size: cover;
-    height: 1377px;
+    background-position: center;
+    height: 1045px;
+    padding-top: 85px;
 }
 
 .presentation {
@@ -521,9 +539,13 @@ strong {
     margin-right: 30px;
 }
 
+.instructorimages img{
+    border-radius: 50%;
+}
 .instructorinner {
     width: 377px;
     height: 393px;
+    おあ
     font-size: 1.6rem;
     font-weight: 300;
     color: #ffffff;
@@ -540,10 +562,85 @@ strong {
     display: flex;
 }
 
+
+/*自由に稼ぐことは本当に可能？～回答*/
+
 .question {
+    height: 270px;
+    padding-top: 40px;
     background-color: #EBB94D;
 }
 
+.question::after {
+    border: 30px solid transparent;
+    border-top-color: #EBB94D;
+    border-bottom-width: 0;
+    content: "";
+    display: block;
+    top: 50px;
+    left: 50%;
+    position: relative;
+    width: 60px;
+}
+
+.questionbtnb {
+    width: 80px;
+    height: 80px;
+    padding-top: 30px;
+    margin: 0 auto;
+    color: #ebb94d;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.questiontitle{
+    color: #ffffff;
+    position: relative;
+
+}
+
+.questiontitle::before, .questiontitle::after {
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+/*かぎかっこ*/
+.questiontitle::before {
+	border-left: solid 4px #ffffff;
+	border-top: solid 4px#ffffff;
+	top: 0;
+	/*left: 0;*/
+}
+
+.questiontitle::after {
+	border-right: solid 4px #ffffff;
+	border-bottom: solid 4px #ffffff;
+	bottom: 0;
+	/*right: 0;*/
+}
+
+.answer {
+    padding-top: 50px;
+}
+
+.answer h3 {
+    font-size: 2.8rem;
+}
+
+.answermessage {
+    font-size: 1.6rem;
+}
+
+.answerannotation{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+/**/
 
 .representatives {
     margin: 40px 0;
@@ -559,6 +656,9 @@ strong {
 
 .representativesmessage {
     width: 500px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #777777;
 }
 
 .listwrap {
@@ -613,33 +713,173 @@ strong {
 }
 
 .flowpic {
+    padding-top: 30px;
     display: flex;
+    justify-content: center;
+}
+
+.flowtext {
+    width: 890px;
+    margin-left: 30px;
+    text-align: left;
+    
 }
 
 /*なんでバンコク*/
 .why {
     height: 490px;
+    padding-top: 100px;
     background-image: url(../images/bangkokbg.jpg);
     background-size: cover;
+    background-position: center;
 }
 
+.whytextouter{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.why h2 {
+    font-size: 2.4rem;
+    color: #ffffff;
+    text-align: left;
+}
+
+.why p {
+    color: #ffffff;
+    text-align: left;
+}
+
+.stext {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.mtext {
+    line-height: 2.2;
+}
+
+.ltext {
+    font-size: 2rem;
+    line-height: 32px;
+}
 /*参加特典*/
 
-.entry_privilege{
+#entry_privilege{
+    height: 660px;
+    padding-top: 30px;
     background-color: #F7C23C;
 }
 
+.privilegetitel {
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.privilegetext {
+    margin-top: 30px;
+}
+
+.privilege {
+    color: #ffffff;
+}
+
+.adding_privilege {
+    width: 890px;
+    height: 45px;
+    margin: 0 auto;
+    background-color:  #F7C23C;
+    position: relative;
+    top: 70px;
+}
+
+.moreenefits {
+    font-size: 2.8rem;
+}
+
+.privilegedescriptioninner {
+    display: flex;
+    justify-content: space-around;
+    width: 1170px;
+    height: 360px;
+    border: solid 2px #ffffff;
+    margin: 50px auto 10px auto;
+    padding: 25px 85px 0 85px;
+}
+
+.privilegetext {
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+   
+}
+
+.privilegetextinner {
+    width: 220px;
+    height: 90px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    
+}
+
+.yerrow {
+    font-size: 2.4rem;
+    color: #ebb94d;
+    font-weight: 300;
+    text-align: center;
+}
+
+.sub {
+    font-size: 1.4rem;
+}
+/*ボランティアではないよ*/
 .objective {
     height: 525px;
+    padding: 70px 0 80px 0;
     background-image: url(../images/specialdetail.jpg);
     background-size: cover;
+    color: #ffffff;
+}
+
+.big {
+    font-size: 2.8rem;
+    padding: 30px;
+	position: relative;
+}
+
+.big::before, .big::after {
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+/*かぎかっこ*/
+.big::before {
+	border-left: solid 4px #ffffff;
+	border-top: solid 4px  #ffffff;
+	top: 0;
+	/*left: 0;*/
+}
+
+.big::after {
+	border-right: solid 4px  #ffffff;
+	border-bottom: solid 4px  #ffffff;
+	bottom: 0;
+	/*right: 0;*/
 }
 
 /*創業者からのメッセージ*/
+
+.message_from_establishment_person {
+    padding-top: 60px;
+}
+
 .messageboxouter {
     display: flex;
     justify-content: center;
-    
+    margin-top: 50px;
 }
 
 .messageboximage {
@@ -649,26 +889,48 @@ strong {
 
 .messagetext {
    width: 640px;
+   padding: 0 15px;
    height: 330px;
+   box-sizing: border-box;
    margin-left: 30px;
 }
 
+.skill {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 45px;
+}
+
 .messagetext p {
+    font-size: 1.4rem;
+    font-weight: 400;
    text-align: left;
 }
 
 /*終わり*/
 
 .documentrequestform {
+    height: 705px;
+    padding: 70px 0;
     background-color: #EBB94D;
+    
+}
+
+.Form {
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .Form-Item {
   padding-top: 24px;
   padding-bottom: 24px;
-  width: 1140px;
-  display: flex;
-  align-items: center;
+  width: 1145px;
+  /*display: flex;*/
+  /*align-items: center;*/
+}
+
+.Form-text-Input{
+    height: 100px;
 }
 
 .Form-Item-Label {
@@ -848,7 +1110,7 @@ strong {
 .s_01 .accordion_one .accordion_inner {
     display: none;
     margin-bottom: 5px;
-    padding: 30px 30px;
+    padding: 20px 30px 0 30px;
     border-bottom: 2px solid #F3F3F3;
     box-sizing: border-box;
 }
@@ -884,6 +1146,15 @@ footer {
 .footertitle {
     font-size: 1rem;
     font-weight: 300;
+}
+
+.link {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 .footerunder {
