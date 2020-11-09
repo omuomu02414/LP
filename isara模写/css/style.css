@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-size: 62.5%;
     font-family: 'Meiryo';
@@ -7,6 +12,7 @@ html {
     line-height: 1.6;
     text-align: center;
     color: #333333;
+    
 }
 
 img {
@@ -14,6 +20,7 @@ img {
     height:auto;
     max-width:100%;
     max-height:100%;
+    vertical-align: middle;
 }
 
 a {
@@ -49,7 +56,7 @@ header {
 }
 
 .headerouter {
-    width: 1500px;
+    width: 1170px;
     height: 75px;
     margin: 0 auto;
     padding: 15px 70px 0 70px;
@@ -69,10 +76,10 @@ header {
 }
 
 .headerinner {
-    /*width: 1075px;*/
-    /*height: 75px;*/
     display: flex;
-    margin-right: 450px;
+    position: relative;
+    right: 160px;
+    /*margin-right: 450px;*/
     
 }
 
@@ -80,6 +87,8 @@ header {
     padding-top: 5px;
     width: 318px;
     height: 43px;
+    position: relative;
+    left: 160px;
 }
 .contact a{
     padding: 10px 40px 10px 40px;
@@ -204,6 +213,14 @@ header {
     border-radius: 3px;
 }
 
+.fa-twitter {
+    color: #fff;
+}
+
+.fa-check {
+    color: #fff;
+}
+
 .twitter:hover {
     background-color:#4267b2;
 }
@@ -214,10 +231,13 @@ header {
     border-radius: 3px;
 }
 
-.share {
+.share a{
     background-color: #1877F2;
     padding: 0 10px;
     border-radius: 3px;
+    display:inline-block;
+    width:50px;
+    height:20px;
 }
 
 .snsbox:last-child {
@@ -246,8 +266,8 @@ header {
 
 .toptitele::before, .toptitele::after {
 	content: '';
-	width: 30px;
-	height: 30px;
+	width: 50px;
+	height: 50px;
 	position: absolute;
 }
 
@@ -256,14 +276,14 @@ header {
 	border-left: solid 4px #EBB94D;
 	border-top: solid 4px #EBB94D;
 	top: 0;
-	/*left: 0;*/
+	left: 550px;
 }
 
 .toptitele::after {
 	border-right: solid 4px #EBB94D;
 	border-bottom: solid 4px #EBB94D;
-	bottom: 0;
-	/*right: 0;*/
+    bottom: 10px;
+	right:550px;
 }
 
 .textwrap1 {
@@ -280,9 +300,9 @@ header {
 
 .textwrap3 span{
     font-weight: 700;
-    border-bottom: solid 4px  #EBB94D;
-
+    border-bottom: solid 10px  #EBB94D;
 }
+
 
 .discription1 {
     height: 633px;
@@ -302,6 +322,38 @@ header {
     
 }
 
+.aboutisaratitle {
+    font-size: 2.8rem;
+    padding: 30px;
+	position: relative;
+}
+
+.aboutisaratitle::before, .aboutisaratitle::after {
+	content: '';
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+/*かぎかっこ*/
+.aboutisaratitle::before {
+	border-left: solid 4px #EBB94D;
+	border-top: solid 4px  #EBB94D;
+	top: 0;
+	left: 550px;
+}
+
+.aboutisaratitle::after {
+	border-right: solid 4px  #EBB94D;
+	border-bottom: solid 4px  #EBB94D;
+	bottom: 0;
+	right: 550px;
+}
+
+.aboutisarasubtitle {
+    margin: 45px 0 40px 0;
+    font-size: 2rem;
+}
 
 .imagebox{
     width: 1170px;
@@ -409,6 +461,9 @@ header {
     padding-top: 65px;
 }
 
+.lerantoisaratitle {
+    margin-bottom: 50px;
+}
 
 .lerantoisara small {
     font-size: 1.6rem;
@@ -419,9 +474,16 @@ header {
     font-weight: 300;
 }
 
+.lerantoisaratextlast {
+    font-size: 1.2rem;
+    font-weight: 400px;
+    color: #000;
+}
 .learnicon {
     display: flex;
     justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 10px;
 }
 
 .side {
@@ -447,8 +509,8 @@ header {
 
 .merittitle::before, .merittitle::after {
 	content: '';
-	width: 30px;
-	height: 30px;
+	width: 50px;
+	height: 50px;
 	position: absolute;
 }
 
@@ -457,20 +519,21 @@ header {
 	border-left: solid 4px #EBB94D;
 	border-top: solid 4px  #EBB94D;
 	top: 0;
-	/*left: 0;*/
+	left: 550px;
 }
 
 .merittitle::after {
 	border-right: solid 4px  #EBB94D;
 	border-bottom: solid 4px  #EBB94D;
 	bottom: 0;
-	/*right: 0;*/
+	right: 550px;
 }
 
 
 .photographbox {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -545,6 +608,7 @@ strong {
     background-position: center;
     height: 1045px;
     padding-top: 85px;
+    color: #fff;
 }
 
 .presentation {
@@ -556,28 +620,62 @@ strong {
     margin-right: 30px;
 }
 
+.instructorimages {
+    position: relative;
+    top: 32px;
+}
+
 .instructorimages img{
     border-radius: 50%;
 }
 .instructorinner {
     width: 240px;
     height: 393px;
+    padding-top: 40px;
     font-size: 1.6rem;
     font-weight: 300;
-    color: #ffffff;
     border: solid 3px #ffffff;
 
 }
+
+.boxL {
+    width: 240px;
+    height: 615px;
+}
+
+.boxM {
+    width: 240px;
+    height: 590px;
+}
+
+.boxS {
+    width: 240px;
+    height: 540px;
+}
+
+
 .massege {
     width: 150px;
     margin: 0 auto;
+    padding-top: 10px;
+    text-align: left;
     
 }
 
+ .massege p{
+     text-align: left;
+}
+
+.massege-001 {
+    margin-top: 30px;
+}
 .presentation2 {
     display: flex;
 }
 
+.fa-address-card {
+    color: #fff;
+}
 
 /*自由に稼ぐことは本当に可能？～回答*/
 
@@ -618,8 +716,8 @@ strong {
 
 .questiontitle::before, .questiontitle::after {
 	content: '';
-	width: 30px;
-	height: 30px;
+	width: 50px;
+	height: 50px;
 	position: absolute;
 }
 
@@ -628,14 +726,14 @@ strong {
 	border-left: solid 4px #ffffff;
 	border-top: solid 4px#ffffff;
 	top: 0;
-	/*left: 0;*/
+	left: 550px;
 }
 
 .questiontitle::after {
 	border-right: solid 4px #ffffff;
 	border-bottom: solid 4px #ffffff;
 	bottom: 0;
-	/*right: 0;*/
+	right: 550px;
 }
 
 .answer {
@@ -671,13 +769,29 @@ strong {
 
 .representativesmessage {
     width: 500px;
+    margin: 15px 0 15px 30px;
+    /*margin-left:30px;*/
     font-size: 1.8rem;
     font-weight: 400;
+    letter-spacing: 0.2em;
     color: #777777;
+    text-align:left;
+    
+}
+
+.representativesmessage p {
+    text-align: left;
+}
+
+.representative {
+    display: inline-block;
+    text-align: left;
+    border-bottom: solid 1px #777777;
 }
 
 .learnable_detail {
     height: 800px;
+    padding-top: 60px;
     background-image: url(../images/classbg.jpg);
     background-size: cover;
     background-position: center;
@@ -686,6 +800,8 @@ strong {
 /*学べる内容リスト*/
 
 .learnable_detailtile {
+    display: inline-block;
+    margin-bottom: 10px;
     color: #ffffff;
 }
 
@@ -695,6 +811,7 @@ strong {
 }
 
 .listwrap {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -738,6 +855,7 @@ strong {
 
 .extendedsupport {
     height: 140px;
+    padding-top: 40px;
     background-color: #016EA9;
 }
 
@@ -748,7 +866,16 @@ strong {
 .attending_flow {
     width: 1170px;
     height: 1825px;
+    padding-top: 60px;
     margin: 0 auto;
+}
+
+.attending_flowtitle {
+    margin-bottom: 60px;
+}
+
+#first {
+    margin-top: 30px;
 }
 
 .flowimage {
@@ -758,17 +885,33 @@ strong {
     border-radius: 10px;
 }
 
+.flowimage p{
+    text-align: left;
+}
+
 .flowpic {
-    padding-top: 30px;
     display: flex;
     justify-content: center;
+    
 }
 
 .flowtext {
     width: 890px;
     margin-left: 30px;
-    text-align: left;
-    
+    margin-top: 40px;
+}
+
+.fa-lapto {
+    color: #333333;
+}
+
+.thick {
+    font-size: 1.6rem;
+}
+
+.thin {
+    font-size: 1.4rem;
+    font-weight: 300;
 }
 
 /*なんでバンコク*/
@@ -879,6 +1022,10 @@ strong {
 .sub {
     font-size: 1.4rem;
 }
+
+.fa-gif {
+    color: #333333;
+}
 /*ボランティアではないよ*/
 .objective {
     height: 525px;
@@ -896,8 +1043,8 @@ strong {
 
 .big::before, .big::after {
 	content: '';
-	width: 30px;
-	height: 30px;
+	width: 50px;
+	height: 50px;
 	position: absolute;
 }
 
@@ -906,14 +1053,14 @@ strong {
 	border-left: solid 4px #ffffff;
 	border-top: solid 4px  #ffffff;
 	top: 0;
-	/*left: 0;*/
+	left: 550px;
 }
 
 .big::after {
 	border-right: solid 4px  #ffffff;
 	border-bottom: solid 4px  #ffffff;
 	bottom: 0;
-	/*right: 0;*/
+	right: 550px;
 }
 
 /*創業者からのメッセージ*/
@@ -933,12 +1080,14 @@ strong {
    height: 140px;
 }
 
-.messagetext {
+.messagetextcover {
    width: 640px;
    padding: 0 15px;
    height: 330px;
    box-sizing: border-box;
    margin-left: 30px;
+   line-height: 1.7;
+   letter-spacing: .1em;
 }
 
 .skill {
@@ -947,10 +1096,18 @@ strong {
     margin-top: 45px;
 }
 
-.messagetext p {
+.messagetextcover p {
     font-size: 1.4rem;
     font-weight: 400;
-   text-align: left;
+    text-align: left;
+}
+
+.messagetext01 {
+    margin-bottom: 10px;
+}
+
+.point {
+    margin: 20px 0;
 }
 
 /*終わり*/
@@ -983,8 +1140,8 @@ strong {
   width: 100%;
   max-width: 248px;
   letter-spacing: 0.05em;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 1.4rem;
 }
 
 .Form-Item-Label.isMsg {
@@ -1017,6 +1174,12 @@ strong {
   font-size: 18px;
 }
 
+#Form-Item-Input {
+    height: 100px;
+}
+
+
+
 .Form-Item-Textarea {
   border-radius: 6px;
   margin-left: 40px;
@@ -1044,6 +1207,18 @@ strong {
   font-size: 2.3rem;
 }
 
+.fa-file-alt {
+    color: #333333;
+}
+
+.frequentlyaskedquestions {
+    padding-top: 65px;
+}
+
+.questionstitle {
+    margin-bottom: 45px;
+}
+
 /*====================================================================
 .s_01 .accordion_one
 ====================================================================*/
@@ -1055,7 +1230,7 @@ strong {
     color: #000000;
     font-size: 2rem;
     font-weight: bold;
-    padding: 20px 11%;
+    padding: 20px 11%  20px  20px ;
     text-align: left;
     position: relative;
     z-index: +1;
@@ -1180,6 +1355,14 @@ strong {
     font-weight: 600;
     text-align: left;
 }
+/*icon*/
+.fa-question-circle {
+    color: #016EA9;
+}
+
+.fa-envelope-open {
+    color: #333333;
+}
 
 /*フッター*/
 footer {
@@ -1207,40 +1390,40 @@ footer {
     margin-top: 50px;
 }
 
-.page-top
-{
-	margin: 0 ;
-	padding: 0 ;
+#snsbtnwrapperlast {
+    margin-top: 10px;
+}
+
+.page-top {
+	margin: 0;
+	padding: 0;
 }
  
-.page-top p
-{
-	margin: 0 ;
-	padding: 0 ;
-
-	position: fixed ;
-	right: 16px ;
-	bottom: 16px ;
-}
- 
-.move-page-top
-{
-	display: block ;
-	background: #ECECEC ;
-	width: 50px ;
-	height: 50px ;
-
-	color: #fff ;
-	line-height: 50px ;
-	text-decoration: none ;
-	text-align: center ;
-
-	-webkit-transition:all 0.3s ;
-	-moz-transition:all 0.3s ;
-	transition:all 0.3s ;
+.page-top p {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	right: 50px;
+	bottom: 90px;
 }
 
-.move-page-top:hover
-{
-	opacity: 0.85 ;
+.move-page-top {
+	display: block;
+	background: #ECECEC;
+	width: 71px;
+    height: 73px;
+    padding-top: 10px;
+	color: #fff;
+	line-height: 50px;
+	text-decoration: none;
+	text-align: center;
+
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+.fa-angle-up {
+    color: #333333;
+    
 }
