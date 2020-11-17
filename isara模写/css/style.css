@@ -44,53 +44,35 @@ li {
 /*--------------------*/
 
 /*ヘッダー*/
-
 header {
+    width: 100%;
     height: 75px;
     position: fixed;
     top: 0;
     z-index: 100;
-    width: 100%;
     background-color: #ffffff;
-
 }
 
-.headerouter {
+.headerin {
+    width: 100%;
+    display: flex;
+}
+
+.title {
     width: 1170px;
-    height: 75px;
-    margin: 0 auto;
-    padding: 15px 70px 0 70px;
+    max-width: calc(100% - 20px);
     display: flex;
-    justify-content: space-around;
 }
 
-.rogo {
-    width: 130px;
-    height: 45px;
-}
 
-.txt1 p{
-    font-size: 1.4rem;
-    font-weight: 600;
-    padding-top: 20px;
-}
-
-.headerinner {
-    display: flex;
-    position: relative;
-    right: 160px;
-    /*margin-right: 450px;*/
-    
-}
-
-.contact {
+.pc {
     padding-top: 5px;
     width: 318px;
     height: 43px;
     position: relative;
     left: 160px;
 }
-.contact a{
+.pc a{
     padding: 10px 40px 10px 40px;
     border-radius: 25px;
     text-align: center;
@@ -101,9 +83,20 @@ header {
     background-color: #DA6B64;
 }
 
-.contact a:hover {
+.pc a:hover {
     background-color: #D84940;
 }
+
+
+.mobile {
+    display: none;
+}
+
+.logo img {
+    width: 130px;
+    height: 45px;
+}
+
 /*ヘッダー終*/
 
 #mainvisualwrapper {
@@ -357,6 +350,7 @@ header {
 
 .imagebox{
     width: 1170px;
+    max-width: calc(100% - 40px);
     height: 250px;
     margin: 0 auto;
     padding: 30px 90px 40px 90px;
@@ -405,7 +399,7 @@ header {
     justify-content: center;
 }
 
-.box {
+.box0001 {
     background-color: #ffffff;
     width: 374px;
     border-radius: 5px;

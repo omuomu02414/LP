@@ -1,15 +1,345 @@
+@charset "UTF-8";
+
 /*スマホ*/
-@media screen and (max–width: 768px) {
+@media screen and (max-width: 768px) {
 
     header {
+        position: static;
+        height: 0;
+    }
+
+    .titlein {
+        flex-direction: column-reverse;
+        width: 375px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 0;
+    }
+
+    .logo img {
+        width: 90px;
+        height: 45px;
+    }
+
+    .logotit {
+        position: absolute;
+        top:0;
+    }
+
+    .logotit01 {
+        font-size: 1rem;
+    }
+    .pc {
+        display: none;
+    }
+
+    .mobile {
+        width: 75px;
+        height: 75px;
+        display: block;
+        font-size: 1.4rem;
+        background-color: #da6b64;
+        position: absolute;
+        right: 0;
+    }
+
+    .fa-file-alt {
+        font-size: 2em;
+        color: #ffffff;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .mobile a {
+        color: #ffffff;
+        padding-left: 10px;
+    }
+
+    .mainvisualtext1 {
+        font-size: 1.8rem;
+    }
+    .mainvisualtext2 {
+        font-size: 1.5rem;
+    }
+    .documentrequest {
         width: 100%;
     }
 
-    .headerinner {
-        display: block;
+    .mobtext01 {
+        font-size: 1.5rem;
     }
-    .contact {
-        width: 75px;
-        height: 75px;
+    .mobtitle02 {
+        font-size: 1.8rem;
     }
+    .annotation {
+        width: 300px;
+        font-size: 1.4rem;
+    }
+
+    .documentrequest a{
+        font-size: 2rem;
+        display:block;
+    }
+ 
+  .priorexplanation p {
+      font-size: 1.5rem;
   }
+
+  .column {
+      display: block;
+  }
+
+  .imagebox {
+       width: 311px;
+       height: 334px;
+       padding: 20px;
+  }     
+
+  .imageboxiner {
+      display: block;
+
+  }
+
+  .box {
+      width: 115px;
+  }
+
+  .box img{
+      width: 30px;
+      height: 30px;
+
+  }
+
+  .box p{
+      font-size: 1rem;
+      font-weight: 300;
+  }
+
+  .aboutisarasubtitle {
+      font-size: 1rem;
+  }
+
+  /*かぎかっこ*/
+  .toptitele::before, .toptitele::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ .toptitele::before {
+    position:  absolute;
+    left: 0;
+}
+
+.toptitele::after {
+    position:  absolute;
+    right: 0;
+}
+
+.aboutisaratitle::before, .aboutisaratitle::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.aboutisaratitle::before {
+    position:  absolute;
+    left: 0;
+}
+
+
+.aboutisaratitle::after {
+    position:  absolute;
+    right: 0;
+}
+
+.merittitle::before, .merittitle::after  {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.merittitle::before {
+    position:  absolute;
+    left: 0;
+}
+
+
+.merittitle::after {
+    position: absolute;
+    right: 0;
+}
+
+
+.photo {
+    height: 120px;
+    object-fit: cover;
+}
+
+
+/*講師*/
+.boxL, .boxM , .boxS {
+    width: 329px;
+    height: 182px;
+    padding: 40px 10px 10px 10px;
+}
+
+.massege {
+    width: 329px;
+    font-size: 1.2rem;
+}
+.massege p {
+    font-size: 1.2rem;
+}
+
+
+.instructorimages img {
+    width: 120px;
+    height: 120px;
+}
+
+.representativespic {
+    height: 109px;
+}
+
+.representativesmessage {
+    width: 340px;
+}
+
+.representativesmessage p {
+    font-size: 1.4rem;
+}
+
+.representative {
+    font-size: 1.1rem;
+}
+
+.adding_privilege {
+    width: 345px;
+}
+
+
+.attending_flow {
+    width: 345px;
+}
+
+.discription2 {
+    height: 566px;
+}
+
+.discription2 h2 {
+  font-size: 1.8rem;
+}
+
+.discriptiontitel {
+    font-size: 1.4rem;
+}
+
+.steptit {
+    width: 215px;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+.step1 , .step2 {
+    font-size: 1.2rem;
+}
+
+.box0001{
+    width: 215px;
+    height: 77px;
+}
+
+.steptext {
+    font-size: 1.2rem;
+}
+
+.whytextouter {
+    width: 345px;
+}
+
+.sport {
+    width: 345px;
+}
+
+.moreenefits {
+    font-size: 1.8rem;
+}
+
+.privilegedescription {
+    width: 311px;
+}
+
+.privilegetext {
+    width: 60px;
+    height: 60px;
+}
+
+.privilegedescriptioninner {
+    width: 345px;
+    display: block;
+}
+
+/*社長メッセージ*/
+.messagebox {
+    height: 1000px;
+}
+
+.messageboxouter {
+    display: block;
+}
+
+.messageboximage {
+    width: 345px;
+    height: 260px;
+
+}
+
+.messagetextcover {
+    width: 345px;
+}
+
+.messagetext01 {
+    font-size: 1.4rem;
+}
+
+
+.Form {
+    width: 345px;
+}
+.Form-Item-Input {
+    width: 320px;
+}
+
+.Form-Item {
+    width: 320px;
+}
+
+  /*そうしんボタン*/
+  .Form-Btn {
+    width: 100%;
+}
+
+
+/*後ほど*/
+.documentrequest a{
+  padding: 0;
+}
+
+
+#page-top {
+    display: none;
+}
+
+}
