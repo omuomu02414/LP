@@ -283,6 +283,10 @@ header {
     margin: 0px 0 30px 0;
 }
 
+.mobtext03 {
+    display: none;
+}
+
 .textwrap2 {
     margin-bottom: 30px;
 }
@@ -291,9 +295,8 @@ header {
     margin-bottom: 300px;
 }
 
-.textwrap3 span{
-    font-weight: 700;
-    border-bottom: solid 10px  #EBB94D;
+.underline {
+    background: linear-gradient(transparent 70%, #EBB94D 10%);
 }
 
 
@@ -758,7 +761,7 @@ strong {
 .representativespic {
     width: 240px;
     height: 240px;
-    border: solid 2px #EBB94D;
+    text-decoration: underline;
 }
 
 .representativesmessage {
@@ -895,6 +898,13 @@ strong {
     margin-top: 40px;
 }
 
+.s_02 {
+    display: none;
+}
+
+.mobile_flow {
+    display: none;
+}
 .fa-lapto {
     color: #333333;
 }
