@@ -1,0 +1,659 @@
+@charset "UTF-8";
+
+/*スマホ*/
+@media screen and (max-width: 768px) {
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+
+    header {
+        position: static;
+        height: 0;
+    }
+    
+
+    .titlein {
+        flex-direction: column-reverse;
+        width: 375px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 0;
+    }
+
+    .logo img {
+        width: 90px;
+        height: 45px;
+        object-fit: contain;
+
+    }
+
+    .logotit {
+        position: absolute;
+        top:0;
+    }
+
+    .logotit01 {
+        font-size: 1rem;
+    }
+    .pc {
+        display: none;
+    }
+
+    .mobile {
+        width: 75px;
+        height: 75px;
+        display: block;
+        font-size: 1.4rem;
+        background-color: #da6b64;
+        position: absolute;
+        right: 0;
+    }
+
+    #mainvisualwrapper {
+        height: 312px;
+        padding: 20px 0 94px 0;
+    }
+
+    #mainvisualwrapper p {
+        margin-bottom: 0px;
+    }
+
+    .mainvisualtext2 {
+        font-size: 1.5rem;
+        letter-spacing: .1em;
+    }
+
+    .fa-file-alt {
+        font-size: 2em;
+        color: #ffffff;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .mobile a {
+        color: #ffffff;
+        padding-left: 10px;
+    }
+
+    .mainvisualtext1 {
+        font-size: 1.8rem;
+    }
+    .mainvisualtext2 {
+        font-size: 1.5rem;
+        
+    }
+
+
+    .mobtext01 {
+        font-size: 1.5rem;
+        letter-spacing: .2em;
+    }
+
+    .mobtext02 {
+        font-size: 1.5rem;
+        width: 355px;
+    }
+    .mobtitle02 {
+        font-size: 1.8rem;
+    }
+    .annotation {
+        width: 300px;
+        font-size: 1.4rem;
+    }
+
+    /*資料請求*/
+    .documentrequest {
+        width: 335px;
+        height: 94px;
+        padding: 35px 20px;
+    }
+
+    .documentrequest a{
+        font-size: 2rem;
+        display:block;
+        padding: 35px 20px 0 20px;
+        position: relative;
+        bottom: 50px;
+
+    }
+   .mobtext03 {
+       display: block;
+       
+   }
+
+  .priorexplanation {
+      
+      padding-top: 20px;
+      background-size: contain;
+  }
+  .priorexplanation p {
+      font-size: 1.5rem;
+  }
+
+  .column {
+      display: block;
+      margin: 0 auto;
+  }
+
+  .imagebox {
+       width: 311px;
+       height: 300px;
+       padding: 10px 20px 0 20px;
+       border-radius: 5px;
+  }     
+
+  .imageboxiner {
+    flex-wrap: wrap;
+      
+
+  }
+
+  .box {
+      width: 115px;
+  }
+
+  .box img{
+      height: 30px;
+      object-fit: contain;
+
+  }
+
+  .box p{
+      font-size: 1rem;
+      font-weight: 300;
+  }
+
+
+  /*かぎかっこ*/
+  .toptitele::before, .toptitele::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ .toptitele::before {
+    position:  absolute;
+    left: 0;
+}
+
+.toptitele::after {
+    position:  absolute;
+    right: 0;
+}
+
+.aboutisaratitle::before, .aboutisaratitle::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.aboutisaratitle::before {
+    position:  absolute;
+    left: 0;
+}
+
+
+.aboutisaratitle::after {
+    position:  absolute;
+    right: 0;
+}
+
+.merittitle::before, .merittitle::after  {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.merittitle::before {
+    position:  absolute;
+    left: 0;
+}
+
+
+.merittitle::after {
+    position: absolute;
+    right: 0;
+}
+
+
+.questiontitle::before, .questiontitle::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.questiontitle::before {
+    position:  absolute;
+    left: 0;
+}
+
+.questiontitle::after {
+    position:  absolute;
+    right: 0;
+}
+
+
+.merit {
+    height: 1205px;
+}
+
+.merittitle h2 {
+    font-size: 1.8rem;
+}
+
+.merittitle p {
+    margin-bottom: 10px;
+}
+
+.meritlast {
+    margin-top: 16px;
+}
+
+.meritlast p{
+    font-size: 1.2rem;
+}
+
+.pcbr {
+    display: none;
+}
+
+.boxouter {
+    margin: 0 auto;
+}
+
+.photo {
+    height: 120px;
+    object-fit: cover;
+}
+
+.mobtext04 {
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.mobtext05 {
+    font-size: 1.2rem;
+    width: 305px;
+    margin: 0 auto;
+}
+
+.more {
+    font-size: 1.8rem;
+}
+
+strong {
+    font-size: 1.5rem;
+}
+
+
+
+/*講師*/
+.initiation {
+    height: 1340px;
+}
+.mobtext06 {
+    
+    font-size: 1.2rem;
+}
+.boxL, .boxM , .boxS {
+    width: 335px;
+    height: 220px;
+    margin-left:10px;
+    padding: 40px 20px 10px 20px;
+}
+
+.massege {
+    width: 329px;
+    font-size: 1.2rem;
+}
+.massege p {
+    font-size: 1.2rem;
+    padding-right:30px;
+    letter-spacing: .1em;
+}
+
+
+.instructorimages img {
+    width: 120px;
+    height: 120px;
+}
+
+.representativespic {
+    height: 105px;
+}
+
+.representativesmessage {
+    width: 340px;
+}
+
+.representativesmessage p {
+    font-size: 1.4rem;
+}
+
+.representative {
+    font-size: 1.1rem;
+}
+
+
+.adding_privilege {
+    width: 300px;
+}
+
+
+
+.abouticon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    bottom: 40px;
+}
+
+.aboutisarasubtitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    letter-spacing: .2em;
+}
+
+.answer h3 {
+    font-size: 1.8rem;
+}
+
+.answermessage, .answerannotation {
+    font-size: 1.2rem;
+}
+
+
+.innertext {
+    width: 315px;
+    margin: 0 auto;
+}
+
+.innertext h3{
+    font-size: 1.5rem;
+
+}
+.innertext p {
+    font-size: 1rem;
+    line-height: 15px;
+    text-align: left;
+}
+
+.discription2 {
+    height: 566px;
+}
+
+.discription2 h2 {
+  font-size: 1.8rem;
+}
+
+.discriptiontitel {
+    font-size: 1.4rem;
+}
+
+.steptit {
+    width: 215px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0;
+
+}
+.step1 , .step2 {
+    font-size: 1.2rem;
+}
+
+.step1 {
+    padding-bottom: 0;
+}
+
+.box0001{
+    width: 300px;
+    height: 100px;
+    margin: 0 auto 15px !important;
+    padding: 15px 50px;
+    
+}
+
+.steptext {
+    font-size: 1.2rem;
+}
+
+.aboutlast {
+    height: 100px;
+    padding: 40px 0;
+}
+.aboutlast p {
+    font-size: 1.2rem;
+}
+
+.lerantoisara {
+    padding-top: 40px;
+    height: 300px;
+}
+
+.lerantoisaratext {
+font-size: 1.5rem;
+}
+
+.lerantoisaratitle {
+    font-size: 1.8rem;
+}
+
+.learnicon {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 265px;
+    height: 70px;
+}
+
+.side {
+    margin-left: 20px;
+}
+
+
+.attending_flow {
+    width: 345px;
+    height: auto;
+}
+
+
+#pc_flow {
+    display: none;
+}
+
+.mobile_flow {
+    display: block;
+}
+
+.accordion_one {
+    background-color: #FEF5E0;
+    border: #ffffff;
+}
+
+
+/*アコーディオン*/
+
+.txt_b_ac {
+    font-size: 1.2rem;
+
+}
+
+.box_onemb {
+    height: 150px;
+}
+
+.mbspace {
+    font-size: 1.5rem;
+}
+
+
+.mbspace img{
+    width: 35px;
+    height: 35px;
+}
+
+
+.whytextouter {
+    width: 305px;
+    margin: 0 auto;
+}
+
+.mobtext07 {
+    font-size: 1.5rem;
+}
+
+.stext {
+    font-size: 1.2rem;
+}
+
+.mtext p{
+    font-size: 1.2rem;
+}
+
+.ltext {
+    font-size: 1.5rem;
+}
+
+.sport {
+    width: 345px;
+    height: 175px;
+    padding-top: 10px;
+}
+
+
+.learnable_detail {
+    height:1150px;
+
+}
+
+.priorlearninglist {
+    width: 350px;
+    margin: 0 auto;
+    
+}
+
+.in_overseas_travellist {
+    width: 350px;
+    height: 400px;
+    margin: 20px auto 0 auto;
+    
+}
+
+.moreenefits {
+    font-size: 1.8rem;
+}
+
+.privilegedescription {
+    width: 311px;
+}
+
+.privilegetext {
+    width: 60px;
+    height: 60px;
+}
+
+.privilegedescriptioninner {
+    width: 345px;
+    padding-left: 30px;
+    margin-left: 15px;
+    display: block;
+
+}
+
+.yerrow {
+    color: #ebb94d;
+    font-size: 1.2rem;
+    position: relative;
+    right: 100px;
+    bottom: 30px;
+}
+
+.sub {
+    width: 200px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    text-align: left;
+}
+
+.big {
+    font-size: 1.8rem;
+}
+
+.mobtext08 p{
+    font-size: 1.2rem;
+}
+
+/*社長メッセージ*/
+.messagebox {
+    height: 1000px;
+}
+
+.messageboxouter {
+    display: block;
+}
+
+.messageboximage {
+    width: 345px;
+    height: 260px;
+
+}
+
+.messagetextcover {
+    width: 345px;
+    margin-left: 0;
+}
+
+.messagetext01 {
+    font-size: 1.4rem;
+}
+
+
+.Form {
+    width: 345px;
+}
+.Form-Item-Input {
+    width: 320px;
+    margin-left: 0;
+    font-size: 1.4rem;
+}
+
+.Form-Item {
+    width: 320px;
+}
+
+  /*そうしんボタン*/
+  .Form-Btn {
+    width: 100%;
+}
+
+
+.s_01 .accordion_one .accordion_header {
+    font-size: 1.5rem;
+}
+
+
+#move-page-top {
+    display: none;
+}
+
+}
